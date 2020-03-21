@@ -68,7 +68,7 @@ namespace Odtwarzacz
         private void Zaladuj_na_starcie(object sender, RoutedEventArgs e)
         {
             Klip.ScrubbingEnabled = true;
-      //      Klip_MediaOpened(sender, e);
+        //    Klip_MediaOpened(sender, e);
             Klip.Stop();
             if (Klip.Source != null) KlipPlay(sender,e);
      
@@ -113,7 +113,7 @@ namespace Odtwarzacz
             Uri uri;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true) {
-                uri = new Uri(openFileDialog.FileName);
+               uri = new Uri(openFileDialog.FileName);
                 Klip.Source = uri;
             }
         }
