@@ -5,7 +5,8 @@ using System.IO;
 using Microsoft.Win32;
 // TODO: dodać guzik szybszego przewijania ( np. 4x)
 // TODO: obsłużyć  błąd gdy plik na zerową długość 
-// TODO zapisywanie aktulnego pliku i pozycji odtwarzania co np. 5 s
+// TODO zapisywanie aktulnego pliku i pozycji odtwarzania co np. 5 
+// TODO sprwadzić DisplayRequest.RequestActive Method z Windows.System.Display
 namespace Odtwarzacz
 {
     /// <summary>
@@ -19,6 +20,7 @@ namespace Odtwarzacz
         public MainWindow()
         {
             InitializeComponent();
+
             timer = new DispatcherTimer();
             KlipIsPlaying = false;
             if (File.Exists(plikkonf))

@@ -10,7 +10,7 @@
         <Button x:Name="StartButton" Content="Uruchom" HorizontalAlignment="Left" Margin="242,164,0,0" VerticalAlignment="Top" Width="212" Height="54" Click="StartButton_Click"/>
         <Label Name="ilplLab" Content="Ilość skopiowanych utworów: " HorizontalAlignment="Left" Margin="28,235,0,0" VerticalAlignment="Top" Width="707"/>
         <TextBox x:Name="DebugTextBox" HorizontalAlignment="Left" Height="101" Margin="28,296,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="578"/>
-        <Label Content="Program kopiuje pliki z moją muzyką " HorizontalAlignment="Left" Margin="28,17,0,0" VerticalAlignment="Top" Width="552"/>
+        <Label Content="Program tworzy listy wpl z moją muzyką " HorizontalAlignment="Left" Margin="28,17,0,0" VerticalAlignment="Top" Width="552"/>
         <Label Name="LabSource" Content="Źródło:" HorizontalAlignment="Left" Margin="41,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.054,0.445" Width="515"/>
     </Grid>
 </Window>
